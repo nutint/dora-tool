@@ -60,5 +60,5 @@ jobs:
         env:
           CYPRESS_HOST_URL: http://localhost:4000
         with:
-          build: pnpm run start:ci
-          start: pnpm run serve:ci
+          build: pnpm run build
+          start: pnpm run start:ci
