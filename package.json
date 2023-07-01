@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "audit": "pnpm audit --audit-level=low"
   },
   "dependencies": {
     "next": "latest",
