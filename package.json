@@ -4,12 +4,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "audit": "pnpm audit --audit-level=low"
+    "audit": "pnpm audit --audit-level=low",
+    "test": "vitest"
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "vitest": "^0.32.2"
   },
   "devDependencies": {
     "@types/node": "20.3.3",
