@@ -4,6 +4,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:ci": "next start -p 4000",
+    "test:functional": "cypress open --env HOST_URL=http://localhost:3000",
+    "test:functional:ci": "cypress run --env HOST_URL=http://localhost:4000",
     "audit": "pnpm audit --audit-level=low",
     "test": "vitest",
     "lint": "next lint"

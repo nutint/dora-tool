@@ -57,6 +57,8 @@ jobs:
 
       - name: Functional test
         uses: cypress-io/github-action@v5
+        env:
+          CYPRESS_HOST_URL: http://localhost:4000
         with:
-          build: pnpm run build
-          start: pnpm run start
+          build: pnpm run start:ci
+          start: pnpm run serve:ci
