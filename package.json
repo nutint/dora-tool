@@ -29,8 +29,8 @@
     "typescript": "5.1.6"
   },
   "pnpm": {
-    "override": {
-      "semver": "^7.5.3"
+    "overrides": {
+      "semver": "^7.5.2"
     }
   }
 }
